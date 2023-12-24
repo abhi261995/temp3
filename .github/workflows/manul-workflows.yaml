@@ -5,7 +5,7 @@ on:
     branches:
      - 'new_branch/**'
 jobs:
- on-demand: 
+ onselectedbranch: 
   runs-on: ubuntu-latest
   steps:
    - name: Dispay output
