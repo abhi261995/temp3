@@ -1,9 +1,9 @@
 #Manual workflow
-name: manual run
+name: run on specific branch
 on:
    push:
     branches:
-     - 'new_branch/**'
+     - 'new_branch'
 jobs:
  onselectedbranch: 
   runs-on: ubuntu-latest
