@@ -1,7 +1,9 @@
 #Manual workflow
 name: manual run
 on:
-  workflow_dispatch:
+   push:
+    branches:
+     - 'new_branch/**'
 jobs:
  on-demand: 
   runs-on: ubuntu-latest
