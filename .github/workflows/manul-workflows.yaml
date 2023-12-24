@@ -8,6 +8,6 @@ jobs:
  on-demand: 
   runs-on: ubuntu-latest
   steps:
-   - name: manual trigger
-     run: echo "This is manaual trigger"
+   - name: Dispay output
+     run: echo "This is workflow trigger"
       
